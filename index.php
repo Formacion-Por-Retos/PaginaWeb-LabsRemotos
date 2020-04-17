@@ -8,6 +8,8 @@
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
+
+
 <div align="center">
 
 
@@ -37,6 +39,27 @@
 <form action="https://apitestlabview.herokuapp.com/boton3" method="post">
     <button class="btn btn-outline-danger" name="dato3" value="false" >Desactivar Tercer Bombillo </button>
 </form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <form action="https://apitestlabview.herokuapp.com/addElemento" method="post">
+
+        <div class="form-group row">
+            <label for="email_address" class="col-md-4 col-form-label text-md-right"" >Texto:</label>
+            <div class="col-md-6">
+                <input type="text" id="elemento" class="form-control" name="elemento" required autofocus style="text-transform:uppercase">
+
+                <br>
+                <br>
+                <button type="submit" class="btn btn-success">Enviar Texto</button>
+            </div>
+        </div>
+    </form>
+
+
 </div>
 
 
