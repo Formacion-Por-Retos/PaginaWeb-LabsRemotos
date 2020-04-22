@@ -23,12 +23,5 @@ if($parametros['contar']>0){
     header("location: ../home.php");
 
 }else {
-
     echo "<script>alert('Contraseña incorrecta o usuario no existe.');</script>";
-
-    echo "<a href='../Views/login_View.php'>";
-    echo "<button>Volver</button>";
-    echo "</a>";
-
-
 }
