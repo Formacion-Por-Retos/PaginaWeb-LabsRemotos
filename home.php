@@ -10,6 +10,12 @@
 <body>
 
 
+<?php
+if(!isset($id)) {
+    header("location: ./index.php");
+}
+?>
+
 <section id="services">
     <div class="container">
         <div class="row">

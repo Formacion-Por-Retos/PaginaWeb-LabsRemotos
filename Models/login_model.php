@@ -23,5 +23,7 @@ if($parametros['contar']>0){
     header("location: ../home.php");
 
 }else {
+
     echo "<script>alert('Contraseña incorrecta o usuario no existe.');</script>";
+
 }
