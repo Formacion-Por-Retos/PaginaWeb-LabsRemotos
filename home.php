@@ -10,15 +10,6 @@
 <body>
 
 
-<?php
-
-session_start();
-$id = $_SESSION['id'];
-
-if(!isset($id)) {
-    header("location: ./index.php");
-}
-?>
 
 <section id="services">
     <div class="container">
@@ -80,11 +71,11 @@ if(!isset($id)) {
                                             <br>
 
                                             <form action="https://apitestlabview.herokuapp.com/updatehardware" method="post">
-                                                <button class="btn btn-danger" name="status_hardware"  value="true" >Activar Hardware </button>
+                                                <button class="btn btn-danger" name="statushardware"  value="true" >Activar Hardware </button>
                                             </form>
                                             <br>
                                             <form action="https://apitestlabview.herokuapp.com/updatehardware" method="post">
-                                                <button class="btn btn-outline-danger" name="status_hardware" value="false" >Desactivar Hardware </button>
+                                                <button class="btn btn-outline-danger" name="statushardware" value="false" >Desactivar Hardware </button>
                                             </form>
 
 
