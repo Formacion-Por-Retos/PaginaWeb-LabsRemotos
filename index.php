@@ -64,7 +64,7 @@
 
                                         <form action="https://apitestlabview.herokuapp.com/addElemento" method="post">
                                                 <label for="email_address">Mensaje:</label>
-                                                    <input type="text" id="elemento" class="form-control" name="elemento" required autofocus style="text-transform:uppercase">
+                                                    <input type="text" id="message" class="form-control" name="message" required autofocus style="text-transform:uppercase">
                                                     <br>
                                                     <button type="submit" class="btn btn-success">Enviar Texto</button>
                                         </form>
