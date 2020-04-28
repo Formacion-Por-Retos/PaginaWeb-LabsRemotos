@@ -15,7 +15,6 @@ $id = $parametros['id'];
 if($parametros['contar']>0){
 
     session_start();
-
     $_SESSION['id'] = $id;
 
     header("location: ../home.php");
