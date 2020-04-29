@@ -32,6 +32,8 @@
     </div>
 </nav>
 
+
+
 <section id="services">
     <div class="container">
         <div class="row">
@@ -41,12 +43,12 @@
                         <div class="row justify-content-center">
                             <div class="col-md-8">
                                 <div class="card">
-                                    <div class="card-header">Inicio de Sesión</div>
+                                    <div class="card-header">Inicio de Sesión en Laboratorio Remotos</div>
                                     <div class="card-body">
                                         <form action="Models/auth_user.php" method="POST">
 
                                             <div class="form-group row">
-                                                <label for="email_address" class="col-md-4 col-form-label text-md-right">Correo</label>
+                                                <label for="email_address" class="col-md-4 col-form-label text-md-right">Usuario</label>
                                                 <div class="col-md-6">
                                                     <input type="text" id="email" class="form-control" name="email"
                                                            required autofocus>
