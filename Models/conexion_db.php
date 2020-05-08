@@ -1,8 +1,8 @@
 <?php
-$host = "35.199.40.228";
-$usuario = "paul9834";
-$clave = "paul9834";
-$db = "estados2020";
+$host = "sql10.freemysqlhosting.net";
+$usuario = "sql10337331";
+$clave = "nkK4vPAgHq";
+$db = "sql10337331";
 $conexion = mysqli_connect($host, $usuario, $clave, $db);
 
 function connect(){
